@@ -1,0 +1,16 @@
+{
+  "name": "tibante",
+  "version": "1.0.0",
+  "description": "Project Capstone SIB Dicoding Cycle 6",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0"
+  }
+}

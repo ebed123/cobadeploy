@@ -1,0 +1,210 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	background-color: #579C62;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+}
+
+.navbar-brand {
+	font-size: x-large;
+	padding-left: 3rem;
+}
+
+.navbar-nav {
+	font-size: large;
+}
+
+.nav-item {
+	line-height: 7px;
+	margin-right: 1rem;
+	cursor: pointer;
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+main {
+    padding: 80px 20px 20px; 
+}
+
+.about-us {
+    text-align: center;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-us .intro {
+    background-color: #e0f7e9;
+    padding: 20px;
+    border: 2px solid #579C62;
+    border-radius: 10px;
+    text-align: justify;
+    flex: 2;
+}
+
+.about-us .intro p {
+    margin: 0;
+}
+
+.about-us .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.about-us .logo-section img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.about-us .logo-section h2 {
+    margin: 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px;
+    margin-left: 100px; 
+}
+
+.team h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.team .member {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 570px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.team .member .photo {
+    margin-right: 10px; 
+}
+
+.team .member .photo img {
+    width: 250px; 
+    height: auto;
+    border-radius: 5%;
+}
+
+.team .member .photoyoga img {
+    width: 260px;
+    height: 300px;
+}
+
+.team .member .info {
+    text-align: left;
+}
+
+.team .member .info p {
+    margin: 5px 0;
+    font-size: large;
+    margin-left: 15px;
+}
+
+.team .member button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #579C62;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-content div {
+    flex: 1;
+}
+
+footer .footer-logo img {
+    height: 70px;
+}
+
+footer .footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer .footer-contact p {
+    margin: 0;
+}
+
+footer .footer-contact {
+    padding-left: 20px;
+}
+
+footer .footer-nav {
+    padding-left: 20px;
+}
+
+footer .footer-logo {
+    text-align: left;
+}
+
+footer .footer-logo p {
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+footer .footer-content h3 {
+    margin-top: 0;
+}
+
+footer .footer-nav h3, .footer-contact h3 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .copyright {
+    margin-top: 20px;
+}

@@ -1,0 +1,340 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+	background-color: #579C62;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+}
+
+.navbar-brand {
+	font-size: x-large;
+	padding-left: 3rem;
+}
+
+.navbar-nav {
+	font-size: large;
+}
+
+.nav-item {
+	line-height: 7px;
+	margin-right: 1rem;
+	cursor: pointer;
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+#blog {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #f5f5f5;
+}
+
+#blog h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#blog p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Reduce the gap between cards */
+    justify-items: center;
+    align-items: start; /* Ensure cards align at the top */
+    padding: 0 10px; /* Add padding to the container */
+}
+
+.card {
+    background-color: #BAE0AD;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    width: 60%; /* Ensure cards take full width of grid column */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.card-content h3 {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content p {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 10px; /* Consistent font size */
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    overflow: hidden; /* Ensure text does not overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    display: -webkit-box; /* Ensure compatibility with WebKit browsers */
+    -webkit-line-clamp: 6; /* Limit the text to 3 lines */
+    -webkit-box-orient: vertical;
+}
+
+
+.read-more {
+    background-color: #97BFFB;
+    color: black;
+    font-style:oblique;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.read-more:hover {
+    background-color: #146ef5;
+}
+
+
+/*---------*/
+#comments {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+#comments h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.comments-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Adjust for responsiveness */
+    max-width: 1000px;
+    margin: auto;
+}
+
+.comment-card {
+    background-color: #BAE0AD;
+    border-radius: 10px;
+    padding: 20px; /* Reduced padding */
+    width: 250px; /* Adjusted width for better layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Spacing between rows */
+}
+
+.comment-name {
+    background-color: #fff;
+    padding: 10px 20px; /* Adjusted padding */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduced margin */
+    width: auto; /* Adjusted width */
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; /* Adjusted font size */
+    color: #333; /* Text color */
+}
+
+.comment-text {
+    background-color: #fff;
+    padding: 15px; /* Adjusted padding */
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    text-align: center;
+    font-size: 14px; /* Adjusted font size */
+    color: #666; /* Text color */
+    line-height: 1.4; /* Line height for better readability */
+}
+
+/*---------*/
+
+footer {
+    background-color: #579C62;
+    color: black;
+    padding: 2rem 1rem;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-menu, .footer-contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.footer-menu h3, .footer-contact h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-menu ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li, .footer-contact li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-menu a, .footer-contact a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-menu a:hover, .footer-contact a:hover {
+    color: #e0e0e0;
+}
+
+.footer-contact {
+    margin-left: 40px; 
+}
+
+body .komentar {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.komentar .container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.komentar h1, .komentar h2 {
+    text-align: center;
+    color: #333;
+}
+
+.komentar form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.komentar .form-group {
+    margin-bottom: 15px;
+}
+
+.komentar .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.komentar .form-group input,
+.komentar .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.komentar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.komentar button:hover {
+    background: #555;
+}
+
+.komentar #message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.komentar #comments {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.komentar .comment {
+    margin-bottom: 15px;
+}
+
+.komentar .comment p {
+    margin: 5px 0;
+}
